@@ -7,6 +7,10 @@ description: Resolve or create the current internal Health Agent user profile be
 
 Use this skill when a request needs backend/database access and the internal `user_profile_id` is not established.
 
+## Goal
+
+Resolve the current user to an internal `user_profile_id`.
+
 ## ID Rules
 
 ```text
@@ -28,14 +32,14 @@ Rules:
 
 1. Check whether a valid internal `user_profile_id` is already known in the current interaction or session.
 2. If yes, reuse it. Do not bootstrap again.
-3. If no `user_profile_id` is known, check whether the current conversation/session exposes `direct:<telegram_id>` or Telegram private chat metadata.
+3. If no `user_profile_id` is known, check whether the current conversation/session exposes `direct:<telegram_id>`.
 4. For this MVP, only private Telegram chats are supported. Use the extracted Telegram ID as both `telegram_user_id` and `telegram_chat_id`.
 5. If no Telegram identity is available, ask the user for their Telegram user ID.
 6. Call `get_user_profile_id_by_telegram_id(telegram_user_id)`.
 7. If a profile exists, remember the returned `user_profile_id`.
 8. If no profile exists, ask only for minimal missing fields and call `create_user_profile(...)`.
 9. After creation, remember the returned `user_profile_id`.
-10. Call `read_user_profile_context(user_profile_id)` to verify the profile and load compact context.
+10. Read `health-agent://profile/{user_profile_id}`.
 
 ## Session Persistence
 
@@ -46,8 +50,4 @@ If not, include it in the response:
 ```text
 Your profile is ready. user_profile_id: <real UUID>
 ```
-
-## Runtime Note
-
-In this project, important read operations must use read-only MCP tools from `tools_extra.py`, not raw MCP resource URIs. The Telegram/PicoClaw runtime reliably calls tools, while resources were not reliably callable during the demo.
 

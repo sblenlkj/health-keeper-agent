@@ -168,7 +168,7 @@ When I woke up this morning, I had mild pain in my left foot.
 
 Скилл описывает read-only анализ уже сохранённого состояния.
 
-Он должен использовать MCP resources, а не создавать новые записи. Его задача — собрать профиль, tracking targets, pending feedback, feedback windows и observations, а затем аккуратно описать состояние пользователя без диагнозов.
+Он должен использовать MCP resources (или read-only tools), а не создавать новые записи. Его задача — собрать профиль, tracking targets, pending feedback, feedback windows и observations, а затем аккуратно описать состояние пользователя без диагнозов.
 
 ---
 

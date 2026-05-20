@@ -123,6 +123,10 @@ Runtime logs may be created locally while testing the backend and MCP server.
 
 Raw logs can contain Telegram identifiers, backend IDs, and user-provided health text. They should be sanitized before being shown in the final report.
 
+### 'artifacts/skills/`
+
+My mcp server used to expose GET use cases via resources but at the debugging stage I found out that pico claw did not see my resources. I have created read-only tools, substituted the skills with only tools calls. I think it is a bug in pico claw, so i keep my resource based skills to reuse in other agent clients. I moved them to the `artifacts` folder. 
+
 ## Runtime architecture
 
 The project uses two cooperating runtime processes:
