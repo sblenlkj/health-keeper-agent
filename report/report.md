@@ -188,6 +188,7 @@ When I woke up this morning, I had mild pain in my left foot.
 | Отчёт ясный | Проект содержит README, docs, report files и отдельные markdown-документы по архитектуре, MCP design, adapters layer и V2 ideas. |
 | Автоматизация по cron | Реализован отдельный FastAPI/APScheduler backend. Агент создаёт schedule configuration, а backend исполняет cron и отправляет Telegram-сообщения. |
 | Состояние сохраняется | Состояние хранится в SQLite: user profiles, targets, schedules, questions, medicines, reminders, feedback items, observations. |
+| Груповой чат не поддерживается из-за архитектурных соображений | Как показали примеры бот может сам создавать профили пользователей для хренения данных в бд, подтягивая tg user id из сессии. Этот id служит авторизацией в систему и позволяет отправлять напоминания по cron job (id пользователя совпадает с id чатом). Использование бота в группе сломает эту замечательную механику - потребует регистрировать user profile на целую группу, что немного странно. Да и обсуждать, что болит у одного человека в группе, странно, неэтично, неправильно. Поэтому бот в группу не добавляется, этот сценарий не имеет смысла. |
 | Несколько skills в связке | В demo один пользовательский сценарий проходит через несколько skills: profile bootstrap, target setup, question setup, reminder setup, observation recording. |
 | Backend сложнее минимального примера | Проект не ограничивается prompt-only агентом. Есть полноценный backend, use cases, repositories, UnitOfWork, scheduler runtime и Telegram sender. |
 
@@ -334,6 +335,8 @@ Telegram
 4. Notification bundling.
 5. Более компактный runtime workspace.
 6. Отдельные specialized agents вместо одного большого агента.
+
+После данных обновлений я разверну на VPS и буду отслеживать свои проблемы с пищеварением и болями в стопах. Это можно сделать на маленьком VPS по причине использования облачного llm inference - еще одна причина ухода от локальной модели на текущем этапе. 
 
 ---
 

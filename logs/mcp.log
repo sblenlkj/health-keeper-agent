@@ -161,3 +161,5 @@
 2026-05-20 15:05:24,327 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
 2026-05-20 15:05:24,327 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: deactivate_tracking_target | tracking_target_id=323f73c3-e2c9-49be-8cbb-314c42422a79
 2026-05-20 15:05:24,340 | INFO | health_agent.adapters.inbound.mcp.tools | Tracking target deactivated | tracking_target_id=323f73c3-e2c9-49be-8cbb-314c42422a79
+2026-05-20 15:52:44,607 | INFO | __main__ | MCP server interrupted by KeyboardInterrupt.
+2026-05-20 15:52:44,608 | INFO | __main__ | MCP server stopped.
