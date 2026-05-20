@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# .env
+.env
+
+# artifacts
+.picoclaw.example/.security.yml
+.picoclaw.example/config.json
+tree.txt
+
+# picoclaw_workspace_v1
+picoclaw_workspace_v1/*
+
+# picoclaw_workspace
+picoclaw_workspace/cron
+picoclaw_workspace/state
+picoclaw_workspace/memory
+picoclaw_workspace/sessions
+picoclaw_workspace/HEARTBEAT.md
+picoclaw_workspace/heartbeat.log
+
+# scripts
+scripts/check-*.sh

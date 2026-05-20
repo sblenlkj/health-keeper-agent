@@ -1,0 +1,97 @@
+2026-05-17 13:31:24,495 | ERROR | mcp.server.lowlevel.server | Received exception from stream: 1 validation error for JSONRPCMessage
+  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='jk\n', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid
+2026-05-17 15:00:50,867 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 15:05:29,951 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 15:05:35,704 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 15:15:04,770 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 15:17:59,696 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 15:38:05,412 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 16:04:14,779 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 16:04:48,306 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 16:12:49,901 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 16:13:05,922 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-17 16:14:10,684 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:14:10,686 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_user_profile | telegram_user_id=1171103388 telegram_chat_id=1171103388 language=ru timezone=Europe/Amsterdam
+2026-05-17 16:14:10,706 | INFO | health_agent.adapters.inbound.mcp.tools | User profile created | user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348 telegram_user_id=1171103388
+2026-05-17 16:19:36,069 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:19:36,072 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=1234567890 code=digestion
+2026-05-17 16:20:01,734 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:20:01,736 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348 code=digestion
+2026-05-17 16:20:26,411 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:20:26,412 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348 code=digestion
+2026-05-17 16:20:30,074 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:20:30,074 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348 code=digestion
+2026-05-17 16:20:33,544 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:20:33,544 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348 code=digestion
+2026-05-17 16:20:59,467 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-17 16:20:59,469 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348 code=digestion
+2026-05-18 09:12:39,822 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 09:51:51,785 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 09:57:35,099 | INFO | mcp.server.lowlevel.server | Processing request of type ListPromptsRequest
+2026-05-18 09:57:38,841 | INFO | mcp.server.lowlevel.server | Processing request of type GetPromptRequest
+2026-05-18 09:57:52,292 | INFO | mcp.server.lowlevel.server | Processing request of type GetPromptRequest
+2026-05-18 09:59:59,631 | INFO | mcp.server.lowlevel.server | Processing request of type ListResourcesRequest
+2026-05-18 10:00:02,595 | INFO | mcp.server.lowlevel.server | Processing request of type ListResourceTemplatesRequest
+2026-05-18 10:04:39,479 | INFO | mcp.server.lowlevel.server | Processing request of type ReadResourceRequest
+2026-05-18 10:07:46,526 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 10:09:45,093 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:09:45,094 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61fe2d444bb652be78a4a95348 code=leg_pain
+2026-05-18 10:15:52,629 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 10:16:15,995 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:16:15,995 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_tracking_target | user_profile_id=49ccca61fe2d444bb652be78a4a95348 code=leg_pain
+2026-05-18 10:16:16,007 | INFO | health_agent.adapters.inbound.mcp.tools | Tracking target created | tracking_target_id=b061bd35-8a8b-4874-a9ad-557f9a230ffe user_profile_id=49ccca61fe2d444bb652be78a4a95348
+2026-05-18 10:19:35,310 | INFO | mcp.server.lowlevel.server | Processing request of type ListResourceTemplatesRequest
+2026-05-18 10:20:26,322 | INFO | mcp.server.lowlevel.server | Processing request of type ReadResourceRequest
+2026-05-18 10:22:21,702 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:22:21,703 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: deactivate_tracking_target | tracking_target_id=d0f7c05c0cfb4452834e9af8b65be6af
+2026-05-18 10:22:47,588 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:22:47,589 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: deactivate_tracking_target | tracking_target_id=d0f7c05c0cfb4452834e9af8b65be6af
+2026-05-18 10:23:49,808 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:23:49,809 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: deactivate_tracking_target | tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe
+2026-05-18 10:23:49,815 | INFO | health_agent.adapters.inbound.mcp.tools | Tracking target deactivated | tracking_target_id=b061bd35-8a8b-4874-a9ad-557f9a230ffe
+2026-05-18 10:24:18,952 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:24:18,953 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: activate_tracking_target | tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe
+2026-05-18 10:24:18,958 | INFO | health_agent.adapters.inbound.mcp.tools | Tracking target activated | tracking_target_id=b061bd35-8a8b-4874-a9ad-557f9a230ffe
+2026-05-18 10:29:31,491 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:29:31,491 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_schedule_cron | user_profile_id=49ccca61fe2d444bb652be78a4a95348 cron=0 10 * * *
+2026-05-18 10:29:31,498 | INFO | health_agent.application.use_cases.schedule_management_use_cases | Created schedule cron f7b0b137-15be-49ff-bcf2-62818cde71a7 for user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348
+2026-05-18 10:29:31,498 | INFO | health_agent.application.use_cases.schedule_management_use_cases | Registering schedule cron f7b0b137-15be-49ff-bcf2-62818cde71a7 in scheduler runtime
+2026-05-18 10:29:31,588 | INFO | health_agent.adapters.inbound.mcp.tools | Schedule cron created | schedule_cron_id=f7b0b137-15be-49ff-bcf2-62818cde71a7 user_profile_id=49ccca61fe2d444bb652be78a4a95348 cron=0 10 * * *
+2026-05-18 10:31:19,254 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:31:19,255 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: deactivate_schedule_cron | schedule_cron_id=f7b0b13715be49ffbcf262818cde71a7
+2026-05-18 10:31:19,267 | INFO | health_agent.adapters.inbound.mcp.tools | Schedule cron deactivated | schedule_cron_id=f7b0b137-15be-49ff-bcf2-62818cde71a7
+2026-05-18 10:31:56,788 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:31:56,789 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: activate_schedule_cron | schedule_cron_id=f7b0b13715be49ffbcf262818cde71a7
+2026-05-18 10:31:56,801 | INFO | health_agent.adapters.inbound.mcp.tools | Schedule cron activated | schedule_cron_id=f7b0b137-15be-49ff-bcf2-62818cde71a7
+2026-05-18 10:32:58,242 | INFO | mcp.server.lowlevel.server | Processing request of type ReadResourceRequest
+2026-05-18 10:34:52,720 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:34:52,721 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_question | tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe schedule_cron_id=f7b0b13715be49ffbcf262818cde71a7
+2026-05-18 10:34:52,727 | INFO | health_agent.adapters.inbound.mcp.tools | Question created | question_id=9c562f6b-e381-4e2e-8eb4-c0200ac512d5 tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe schedule_cron_id=f7b0b13715be49ffbcf262818cde71a7
+2026-05-18 10:36:07,639 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:36:07,639 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_schedule_cron | user_profile_id=49ccca61fe2d444bb652be78a4a95348 cron=0 11 * * *
+2026-05-18 10:36:07,643 | INFO | health_agent.application.use_cases.schedule_management_use_cases | Created schedule cron 7e127710-99cf-4464-8dc7-e9db16d4173f for user_profile_id=49ccca61-fe2d-444b-b652-be78a4a95348
+2026-05-18 10:36:07,643 | INFO | health_agent.application.use_cases.schedule_management_use_cases | Registering schedule cron 7e127710-99cf-4464-8dc7-e9db16d4173f in scheduler runtime
+2026-05-18 10:36:07,653 | INFO | health_agent.adapters.inbound.mcp.tools | Schedule cron created | schedule_cron_id=7e127710-99cf-4464-8dc7-e9db16d4173f user_profile_id=49ccca61fe2d444bb652be78a4a95348 cron=0 11 * * *
+2026-05-18 10:36:42,688 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:36:42,688 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_question | tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe schedule_cron_id=7e127710-99cf-4464-8dc7-e9db16d4173f
+2026-05-18 10:36:42,693 | INFO | health_agent.adapters.inbound.mcp.tools | Question created | question_id=ba0dafe1-1074-4f15-9ada-c1d611702290 tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe schedule_cron_id=7e127710-99cf-4464-8dc7-e9db16d4173f
+2026-05-18 10:37:25,076 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:37:25,077 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_medicine | tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe kind=other
+2026-05-18 10:38:00,545 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 10:43:32,963 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:43:32,963 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_medicine | tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe kind=other
+2026-05-18 10:43:32,982 | INFO | health_agent.adapters.inbound.mcp.tools | Medicine created | medicine_id=41d6a0a7-6161-4a1f-b7a5-2e9d769d9616 tracking_target_id=b061bd358a8b4874a9ad557f9a230ffe kind=other
+2026-05-18 10:44:37,664 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 10:44:37,664 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: create_reminder | medicine_id=41d6a0a7-6161-4a1f-b7a5-2e9d769d9616 schedule_cron_id=7e12771099cf44648dc7e9db16d4173f has_feedback_question=True
+2026-05-18 10:44:37,671 | INFO | health_agent.adapters.inbound.mcp.tools | Reminder created | reminder_id=b749818a-001c-4470-a1a9-3551bc2dba2d medicine_id=41d6a0a7-6161-4a1f-b7a5-2e9d769d9616 schedule_cron_id=7e12771099cf44648dc7e9db16d4173f
+2026-05-18 10:56:24,200 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 10:59:29,875 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 11:13:04,555 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 11:13:57,263 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 11:13:57,272 | INFO | health_agent.adapters.inbound.mcp.tools | Request metadata: RequestContext(request_id=3, meta=None, session=<mcp.server.session.ServerSession object at 0x10a80f770>, lifespan_context={}, experimental=Experimental(task_metadata=None), request=None, close_sse_stream=None, close_standalone_sse_stream=None)
+2026-05-18 11:14:22,496 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 11:14:22,497 | INFO | health_agent.adapters.inbound.mcp.tools | Request metadata: RequestContext(request_id=4, meta=None, session=<mcp.server.session.ServerSession object at 0x10a80f770>, lifespan_context={}, experimental=Experimental(task_metadata=None), request=None, close_sse_stream=None, close_standalone_sse_stream=None)
+2026-05-18 11:43:33,870 | INFO | mcp.server.lowlevel.server | Processing request of type ListToolsRequest
+2026-05-18 11:44:17,026 | INFO | mcp.server.lowlevel.server | Processing request of type CallToolRequest
+2026-05-18 11:44:17,028 | INFO | health_agent.adapters.inbound.mcp.tools | MCP tool called: record_observation | user_profile_id=1171103388

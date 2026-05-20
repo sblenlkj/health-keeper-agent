@@ -1,0 +1,9 @@
+channels:
+  telegram:
+    token: YOUR_TELEGRAM_BOT_TOKEN
+
+# Map keys strictly by matching the model_name field from config.json
+model_list:
+  cerebras-gpt-oss-120b:
+    api_keys:
+      - YOUR_CEREBRAS_API_KEY

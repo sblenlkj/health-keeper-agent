@@ -1,0 +1,36 @@
+2026-05-19 11:29:48,039 | INFO | health_agent.entrypoints.api_with_scheduler | FastAPI scheduler server starting.
+2026-05-19 11:29:48,048 | INFO | uvicorn.error | Started server process [96783]
+2026-05-19 11:29:48,048 | INFO | uvicorn.error | Waiting for application startup.
+2026-05-19 11:29:48,051 | INFO | apscheduler.scheduler | Scheduler started
+2026-05-19 11:29:48,054 | INFO | uvicorn.error | Application startup complete.
+2026-05-19 11:29:48,055 | INFO | uvicorn.error | Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-05-19 11:30:12,718 | INFO | uvicorn.error | Shutting down
+2026-05-19 11:30:12,818 | INFO | uvicorn.error | Waiting for application shutdown.
+2026-05-19 11:30:12,819 | INFO | apscheduler.scheduler | Scheduler has been shut down
+2026-05-19 11:30:12,819 | INFO | uvicorn.error | Application shutdown complete.
+2026-05-19 11:30:12,819 | INFO | uvicorn.error | Finished server process [96783]
+2026-05-19 11:30:12,819 | INFO | health_agent.entrypoints.api_with_scheduler | FastAPI scheduler server stopped.
+2026-05-19 11:30:15,649 | INFO | health_agent.entrypoints.api_with_scheduler | FastAPI scheduler server starting.
+2026-05-19 11:30:15,656 | INFO | uvicorn.error | Started server process [97378]
+2026-05-19 11:30:15,656 | INFO | uvicorn.error | Waiting for application startup.
+2026-05-19 11:30:15,660 | INFO | apscheduler.scheduler | Scheduler started
+2026-05-19 11:30:15,663 | INFO | uvicorn.error | Application startup complete.
+2026-05-19 11:30:15,663 | INFO | uvicorn.error | Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-05-20 13:09:59,833 | INFO | health_agent.entrypoints.api_with_scheduler | FastAPI scheduler server starting.
+2026-05-20 13:09:59,843 | INFO | uvicorn.error | Started server process [49959]
+2026-05-20 13:09:59,844 | INFO | uvicorn.error | Waiting for application startup.
+2026-05-20 13:09:59,847 | INFO | apscheduler.scheduler | Scheduler started
+2026-05-20 13:09:59,851 | INFO | uvicorn.error | Application startup complete.
+2026-05-20 13:09:59,851 | INFO | uvicorn.error | Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-05-20 13:13:55,246 | INFO | apscheduler.scheduler | Added job "SchedulerRuntime._run_schedule_cron" to job store "default"
+2026-05-20 13:39:50,629 | INFO | apscheduler.scheduler | Added job "SchedulerRuntime._run_schedule_cron" to job store "default"
+2026-05-20 14:00:00,009 | INFO | apscheduler.executors.default | Running job "SchedulerRuntime._run_schedule_cron (trigger: cron[month='*', day='*', day_of_week='*', hour='11', minute='0'], next run at: 2026-05-21 11:00:00 UTC)" (scheduled at 2026-05-20 11:00:00+00:00)
+2026-05-20 14:00:00,012 | INFO | health_agent.application.use_cases.schedule_runtime_use_cases | Running schedule cron 853ac838-a174-4147-8055-7ec35598a1c2
+2026-05-20 14:00:00,015 | INFO | apscheduler.executors.default | Running job "SchedulerRuntime._run_schedule_cron (trigger: cron[month='*', day='*', day_of_week='*', hour='11', minute='0'], next run at: 2026-05-21 11:00:00 UTC)" (scheduled at 2026-05-20 11:00:00+00:00)
+2026-05-20 14:00:00,016 | INFO | health_agent.application.use_cases.schedule_runtime_use_cases | Running schedule cron 9447e265-916e-48b6-bf92-fc50da8b7c8e
+2026-05-20 14:00:00,037 | INFO | health_agent.application.services.schedule_execution_service | Executing schedule cron 853ac838-a174-4147-8055-7ec35598a1c2
+2026-05-20 14:00:00,037 | INFO | health_agent.application.services.schedule_execution_service | Schedule cron 853ac838-a174-4147-8055-7ec35598a1c2 created 2 feedback items and 1 reminder messages
+2026-05-20 14:00:00,348 | INFO | apscheduler.executors.default | Job "SchedulerRuntime._run_schedule_cron (trigger: cron[month='*', day='*', day_of_week='*', hour='11', minute='0'], next run at: 2026-05-21 11:00:00 UTC)" executed successfully
+2026-05-20 14:00:00,385 | INFO | health_agent.application.services.schedule_execution_service | Executing schedule cron 9447e265-916e-48b6-bf92-fc50da8b7c8e
+2026-05-20 14:00:00,385 | INFO | health_agent.application.services.schedule_execution_service | Schedule cron 9447e265-916e-48b6-bf92-fc50da8b7c8e created 2 feedback items and 1 reminder messages
+2026-05-20 14:00:00,681 | INFO | apscheduler.executors.default | Job "SchedulerRuntime._run_schedule_cron (trigger: cron[month='*', day='*', day_of_week='*', hour='11', minute='0'], next run at: 2026-05-21 11:00:00 UTC)" executed successfully
